@@ -2,7 +2,7 @@
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_boston
-from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
+from sklearn.metrics import mean_absolute_error,mean_squared_error
 from sklearn.tree import DecisionTreeRegressor
 
 # 准备数据集
