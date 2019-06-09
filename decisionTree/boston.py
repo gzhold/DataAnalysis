@@ -13,7 +13,7 @@ boston=load_boston()
 features = boston.data
 prices = boston.target
 # 随机抽取 33% 的数据作为测试集，其余为训练集
-train_features, test_features, train_price, test_price = train_test_split(features, prices, test_size=0.33)
+train_features, test_features, train_price, test_price = train_test_split(features, prices, test_size=0.25, random_state=33)
 # 创建 CART 回归树
 dtr=DecisionTreeRegressor()
 # 拟合构造 CART 回归树
